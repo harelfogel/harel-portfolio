@@ -39,7 +39,13 @@ async function readMarkdownFile(fullPath: string, relativePath: string) {
 export async function listKnowledgeBaseDocs(): Promise<
   KnowledgeBaseDocument[]
 > {
-  const rootDocs = ["about.md", "experience.md"];
+  const rootDocs = [
+    "about.md",
+    "overview.md",
+    "experience.md",
+    "education.md",
+    "skills.md",
+  ];
 
   const results: KnowledgeBaseDocument[] = [];
 

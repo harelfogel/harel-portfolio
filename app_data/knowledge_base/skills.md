@@ -1,41 +1,61 @@
 # Skills
 
 ## General
-- Architecture design
+- Architecture design and system modeling
 - Object oriented programming
-- Desktop application development
 - Web development (frontend + backend)
+- Distributed systems and concurrent processing
+- CI/CD pipeline design and automation
 
 ## Programming Languages
-- C
-- C++
-- Java
+- TypeScript / JavaScript
 - Python
-- JavaScript/TypeScript
+- Java
 
-## Frameworks and Libraries
+## Frontend
 - React.js
-- Node.js
-- AngularJS
-- Spring Boot
+- Next.js
+- Redux Toolkit
+- ShadCN UI
+- HeroUI
+- Vite
+- Tailwind CSS
+
+## Backend
 - NestJS
 - FastAPI
-- Flask
+- Spring Boot
+- Node.js
+- SQLAlchemy
 
 ## Databases
 - PostgreSQL
+- DynamoDB
 - MongoDB
 - MySQL
 - Redis
 
-## Cloud and Infrastructure
-- AWS
-- Heroku
-- Docker
-- MQTT
-- WebSockets
+## AWS Services
+- ECS Fargate
+- EC2
+- ALB (Application Load Balancer)
+- Route53
+- ACM (Certificate Manager)
+- ECR (Container Registry)
+- CodePipeline
+- RDS
+- SQS
+- EMR
+- S3
 
-## Tools
+## Infrastructure and Tools
+- Docker
 - Git
-- Codex
+- Render
+- Vercel
+- WebSockets
+- MQTT
+
+## AI-Assisted Development
 - Claude Code
+- Cursor IDE

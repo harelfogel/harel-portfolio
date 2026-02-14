@@ -1,24 +1,26 @@
 # Experience
 
 ## Full Stack Developer, Thing or Two (2024 - Present)
-- Contributed to the Varys platform, optimizing advertising campaigns with real-time data analysis and reporting.
-- Integrated the AppsFlyer API for real-time reporting and actionable insights.
-- Improved and scaled campaign management features to enable data-driven decisions.
-- Built robust web applications using React, NestJS, FastAPI, and PostgreSQL.
-- Maintained WebSocket-based real-time communication for responsiveness and reliability.
+- Core contributor to the Varys advertising platform — a system that orchestrates large-scale campaign management with real-time analytics.
+- Designed and built the Click Pacer infrastructure: a distributed system handling millions of daily clicks with atomic batch processing, concurrent dispatch, and pacing/capping enforcement.
+- Owned AWS infrastructure end-to-end: ECS Fargate deployments, CodePipeline CI/CD, ALB routing, Route53 DNS, ACM certificates, ECR container registry.
+- Integrated the AppsFlyer API for real-time campaign reporting and actionable conversion insights.
+- Built and maintained WebSocket-based real-time communication for live campaign dashboards.
+- Made key architectural decisions: migrated from Redis to PostgreSQL for click queue persistence (durability over speed), designed DynamoDB GSI patterns for efficient campaign lookups.
+- Implemented concurrency-safe batch consumption using PostgreSQL FOR UPDATE SKIP LOCKED pattern.
+- Tech stack: TypeScript, React, NestJS, FastAPI, PostgreSQL, DynamoDB, Redis, AWS (ECS, EC2, SQS, RDS, S3, EMR), Docker.
 
 ## Full Stack Developer, Coretigo Ltd (2023 - 2024)
-- Implemented an extension of the MQTT protocol to comply with the Sparkplug specification.
-- Built system configuration flows and state machines for an industrial wireless system.
-- Debugged and resolved issues in a full stack product to ensure quality.
-- Collaborated with QA to cover features with test plans and functional guidance.
-- Tech stack: Java Spring Boot, Python Flask, React, Docker, PostgreSQL, MQTT.
+- Built an extension of the MQTT protocol to comply with the Sparkplug B specification for industrial IoT wireless communication.
+- Designed and implemented system configuration flows and state machines for an industrial wireless platform.
+- Developed full stack features across the product — from Spring Boot backend services to React frontend components.
+- Collaborated closely with QA to define test plans, edge case coverage, and functional acceptance criteria.
+- Debugged and resolved cross-layer issues in a complex distributed product spanning firmware, backend, and frontend.
+- Tech stack: Java Spring Boot, Python, React, Docker, PostgreSQL, MQTT.
 
 ## Software Developer Intern (Server-Side), Atomation (Dec 2021 - Jun 2022)
-- Worked on an IoT platform connecting legacy in-field assets to the internet.
-- Completed full lifecycle application development: requirements, system design, development, testing, and support.
-- Optimized deployment processes to reduce manual work and accelerate releases.
-- Tech: Node.js, TypeScript, MongoDB, AngularJS.
-
-## CNC Operator, Fogel's Carpentry (2016 - Present)
-- Programmed and assembled kitchen components using CNC technology.
+- Worked on an IoT platform connecting legacy industrial assets to cloud monitoring and alerting systems.
+- Completed full lifecycle application development: gathering requirements, system design, implementation, testing, and production support.
+- Built RESTful APIs and background processing services for sensor data ingestion and transformation.
+- Optimized deployment processes to reduce manual work and accelerate release cycles.
+- Tech stack: Node.js, TypeScript, MongoDB.

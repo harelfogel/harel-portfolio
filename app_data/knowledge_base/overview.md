@@ -1,26 +1,26 @@
 # Overview
 
 ## Summary
-- 4th year Software Engineering student specializing in web application development.
-- Experienced with C, C++, Java, Python, JavaScript/TypeScript, React.
-- Mitigates the gap between end users and developers; co-designs and builds scalable solutions.
-- Uses AI tools (Codex, Claude Code) to speed up development and shipping.
+- Full Stack Engineer with hands-on experience building distributed systems, cloud-native applications, and high-scale backends.
+- Core stack: TypeScript, React, NestJS, FastAPI, PostgreSQL, AWS.
+- Bridges the gap between end users and developers — co-designs and ships scalable, production-ready solutions.
+- Uses AI tools (Claude Code, Cursor) to accelerate development and shipping.
 
 ## Contact
 - Email: fogell06@gmail.com
-- LinkedIn: https://linkedin.com/in/harelfogel
+- LinkedIn: https://www.linkedin.com/in/harel-fogel/
+- GitHub: https://github.com/harelfogel
 
 ## Languages
 - English: Fluent
 - Hebrew: Native
 - Spanish: A1 (Beginner)
 
-## Certificates and Service
-- B.Sc. Software Engineering student at Shenkar (4th year).
+## Military Service
 - Commander in Nachal Brigade.
 - Won first place in IDF Commander Course (May 2014).
 
-## AI and Cloud
-- Completed an AI course on Udemy.
-- Cloud: AWS, Heroku.
-- Infrastructure: Docker, Git.
+## Cloud and Infrastructure
+- AWS (ECS Fargate, EC2, ALB, Route53, ACM, ECR, CodePipeline, DynamoDB, RDS, SQS, EMR, S3)
+- Render, Vercel
+- Docker, Git

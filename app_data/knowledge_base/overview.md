@@ -5,6 +5,7 @@
 - Core stack: TypeScript, React, NestJS, FastAPI, PostgreSQL, AWS.
 - Bridges the gap between end users and developers — co-designs and ships scalable, production-ready solutions.
 - Uses AI tools (Claude Code, Cursor) to accelerate development and shipping.
+- Built GoodTok, an AI newsletter product (backend + frontend) focused on high-signal AI updates for technical audiences.
 
 ## Contact
 - Email: fogell06@gmail.com

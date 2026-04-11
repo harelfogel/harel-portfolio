@@ -6,7 +6,7 @@ const DEFAULTS: Record<
 > = {
   claude: {
     baseUrl: "https://api.anthropic.com/v1/messages",
-    model: "claude-3-5-sonnet-20241022",
+    model: "claude-3-7-sonnet-latest",
   },
   openai: {
     baseUrl: "https://api.openai.com/v1/chat/completions",

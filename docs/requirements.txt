@@ -1,0 +1,92 @@
+Harel Portfolio 2.0 — Product Requirements (Recruiter + Engineering Audience)
+
+1) Product Goal
+- Build a "wow" portfolio website that immediately demonstrates:
+  - Strong engineering depth (systems, scalability, architecture).
+  - Real AI integration (agentic experience, not just static content).
+  - Clean, premium UI/UX that is easy for both technical and non-technical recruiters.
+
+2) Primary Users
+- Recruiters / Talent Acquisition:
+  - Need fast summary and confidence in communication + fit.
+- Hiring Managers / Head of Engineering / Full-Stack Leads:
+  - Need architecture depth, tradeoffs, and ownership evidence.
+- Technical Peers:
+  - Need code quality signals and project depth.
+
+3) Success Criteria (MVP)
+- User understands "who Harel is" in under 60 seconds.
+- User can access CV PDF download in one click.
+- User can open LinkedIn and GitHub directly from hero section.
+- User can ask AI agent questions about experience and projects.
+- User can contact Harel through email action in two clicks or less.
+
+4) Mandatory Features
+- Hero section:
+  - Professional photo.
+  - One-line positioning statement.
+  - Primary actions: Download CV, LinkedIn, GitHub, Email.
+- About section:
+  - Story, strengths, core domains.
+- Projects section:
+  - Top projects with impact metrics + stack + architecture highlights.
+- AI recruiter assistant:
+  - Conversational agent focused on hiring-relevant questions.
+  - Preset prompts for common recruiter flows.
+- Experience timeline:
+  - Responsibilities + measurable outcomes.
+- Skills section:
+  - Grouped by backend, frontend, cloud/devops, AI tooling.
+- Contact section:
+  - Email action and social links.
+
+5) AI Agent Requirements (Recruiter Interview Mode)
+- Agent persona:
+  - "Harel Portfolio Assistant" — concise, professional, friendly.
+- Core behavior:
+  - Answers based only on portfolio knowledge base.
+  - Provides confident but non-inflated answers.
+  - Mentions concrete examples from projects and experience.
+- Prompt examples:
+  - "What is Harel strongest at technically?"
+  - "Tell me about a distributed systems project with measurable impact."
+  - "Why should we hire Harel for a full-stack role?"
+- Guardrails:
+  - No fabricated experience.
+  - If unknown, asks user to contact Harel directly.
+
+6) Content Requirements
+- Include:
+  - About summary.
+  - Project explanations with metrics.
+  - Strengths and tools.
+  - Contact details (email, LinkedIn, GitHub).
+- Assets:
+  - Professional profile image.
+  - CV PDF file stored in public assets for direct download.
+
+7) Non-Functional Requirements
+- Performance:
+  - First load under ~2.5s on standard broadband.
+- Accessibility:
+  - Keyboard-friendly navigation and strong contrast.
+- Responsiveness:
+  - Mobile, tablet, desktop.
+- Reliability:
+  - Graceful AI fallback message if model/API fails.
+
+8) Analytics Requirements
+- Track CTA clicks:
+  - Download CV.
+  - LinkedIn.
+  - GitHub.
+  - Email.
+- Track AI assistant usage:
+  - Conversation starts.
+  - Top asked questions.
+
+9) Deliverables
+- Production portfolio website.
+- AI recruiter assistant integrated into portfolio.
+- Downloadable CV endpoint/button.
+- Public links for LinkedIn + GitHub + email action.
